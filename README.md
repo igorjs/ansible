@@ -3,7 +3,7 @@ An environment provisioned by Ansible
 
 # Getting Started
 
-#### Install ansible by bootstrap.sh
+#### Install ansible by isntall/[your system based].sh
 #### Execute ansible-playbook site.yml
 
 ## By now, some packages are ready:

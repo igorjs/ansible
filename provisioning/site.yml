@@ -1,0 +1,24 @@
+---
+# Deploy A minimal environment for Software development
+
+- name: Dev environment
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - maven
+    - tomcat
+    - bower
+    - gulp
+    - grunt
+    - angular
+    - dbeaver
+
+- name: IDE
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - intellij
+    - eclipse
+    - utilities
