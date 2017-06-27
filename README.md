@@ -1,7 +1,5 @@
 # Ansible
-
-# java-environment
-Java environment provisioned by Ansible
+An environment provisioned by Ansible
 
 # Getting Started
 
